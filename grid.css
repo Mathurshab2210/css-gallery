@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    align-items: center;
+    padding: auto;
+    
+    
+}
+img{
+    max-width: 100%;
+    /* min-width: 300px; */
+}
